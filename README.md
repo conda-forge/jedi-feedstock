@@ -15,6 +15,18 @@ well. Jedi is fast and is very well tested. It understands Python on a
 deeper level than all other static analysis frameworks for Python.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jedi-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jedi-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/jedi-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jedi-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jedi-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jedi-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jedi/badges/version.svg)](https://anaconda.org/conda-forge/jedi)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jedi/badges/downloads.svg)](https://anaconda.org/conda-forge/jedi)
+
 Installing jedi
 ===============
 
@@ -35,7 +47,6 @@ It is possible to list all of the versions of `jedi` available on your platform 
 ```
 conda search jedi --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -71,18 +82,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jedi-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jedi-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jedi-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jedi-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jedi-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jedi-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jedi/badges/version.svg)](https://anaconda.org/conda-forge/jedi)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jedi/badges/downloads.svg)](https://anaconda.org/conda-forge/jedi)
 
 
 Updating jedi-feedstock
