@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  fn: jedu-v{{ version }}.tar.gz
+  fn: jedi-v{{ version }}.tar.gz
   url: https://github.com/davidhalter/jedi/archive/v{{ version }}.tar.gz
   sha256: d6a7344df9c80562c3f62199278004ccc7c5889be9f1a6aa5abde117ec085123
 
