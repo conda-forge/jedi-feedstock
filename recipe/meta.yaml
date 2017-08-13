@@ -27,6 +27,9 @@ requirements:
 test:
   imports:
     - jedi
+    - jedi.api
+    - jedi.evaluate
+    - jedi.evaluate.compiled
 
 about:
   home: https://github.com/davidhalter/jedi/
@@ -41,6 +44,7 @@ about:
     deeper level than all other static analysis frameworks for Python.
   dev_url: https://github.com/davidhalter/jedi/
   doc_url: http://jedi.readthedocs.io/en/latest/
+  doc_source_url: https://github.com/davidhalter/jedi/blob/master/docs/index.rst
 
 extra:
   recipe-maintainers:
