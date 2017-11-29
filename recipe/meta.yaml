@@ -22,6 +22,7 @@ requirements:
 
   run:
     - python
+    - parso ==0.1.0
 
 test:
   imports:
