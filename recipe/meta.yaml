@@ -1,6 +1,6 @@
 {% set name = "jedi" %}
-{% set version = "0.10.2" %}
-{% set sha256 = "7abb618cac6470ebbd142e59c23daec5e6e063bfcecc8a43a037d2ab57276f4e" %}
+{% set version = "0.11.0" %}
+{% set sha256 = "f6d5973573e76b1fd2ea75f6dcd6445d02d41ff3af5fc61b275b4e323d1dd396" %}
 
 package:
   name: {{ name|lower }}
