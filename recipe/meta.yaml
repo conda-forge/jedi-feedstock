@@ -22,7 +22,9 @@ requirements:
 
   run:
     - python
-    - parso 0.1.1
+    # the PyPI package pins to 0.1.1 but appears to work with 0.1.*
+    # see https://github.com/davidhalter/jedi/commit/fc039773
+    - parso >=0.1.0,<0.2
 
 test:
   imports:
