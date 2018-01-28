@@ -1,6 +1,6 @@
 {% set name = "jedi" %}
-{% set version = "0.10.2" %}
-{% set sha256 = "7abb618cac6470ebbd142e59c23daec5e6e063bfcecc8a43a037d2ab57276f4e" %}
+{% set version = "0.11.1" %}
+{% set sha256 = "d6e799d04d1ade9459ed0f20de47c32f2285438956a677d083d3c98def59fa97" %}
 
 package:
   name: {{ name|lower }}
@@ -22,6 +22,9 @@ requirements:
 
   run:
     - python
+    # the PyPI package pins to 0.1.1 but appears to work with 0.1.*
+    # see https://github.com/davidhalter/jedi/commit/fc039773
+    - parso >=0.1.0,<0.2
 
 test:
   imports:
