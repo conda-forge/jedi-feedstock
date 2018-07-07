@@ -18,14 +18,15 @@ deeper level than all other static analysis frameworks for Python.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/jedi-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/jedi-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/jedi-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/jedi-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/jedi-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/jedi-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/jedi-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/jedi-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jedi/badges/version.svg)](https://anaconda.org/conda-forge/jedi)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/jedi/badges/downloads.svg)](https://anaconda.org/conda-forge/jedi)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jedi-green.svg)](https://anaconda.org/conda-forge/jedi) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jedi.svg)](https://anaconda.org/conda-forge/jedi) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jedi.svg)](https://anaconda.org/conda-forge/jedi) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jedi.svg)](https://anaconda.org/conda-forge/jedi) |
 
 Installing jedi
 ===============
