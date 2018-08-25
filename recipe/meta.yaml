@@ -1,25 +1,21 @@
-{% set name = "jedi" %}
 {% set version = "0.12.1" %}
-{% set sha256 = "b409ed0f6913a701ed474a614a3bb46e6953639033e31f769ca7581da5bd1ec1" %}
 
 package:
-  name: {{ name|lower }}
+  name: jedi
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/j/jedi/jedi-{{ version }}.tar.gz
+  sha256: b409ed0f6913a701ed474a614a3bb46e6953639033e31f769ca7581da5bd1ec1
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   host:
     - python
-    - setuptools
-
+    - pip
   run:
     - python
     - parso >=0.3.0
@@ -51,3 +47,4 @@ extra:
     - goanpeca
     - asmeurer
     - nehaljwani
+    - ocefpaf
