@@ -1,4 +1,4 @@
-{% set version = "0.13.1" %}
+{% set version = "0.13.2" %}
 
 package:
   name: jedi
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jedi/jedi-{{ version }}.tar.gz
-  sha256: b7493f73a2febe0dc33d51c99b474547f7f6c0b2c8fb2b21f453eef204c12148
+  sha256: 571702b5bd167911fe9036e5039ba67f820d6502832285cde8c881ab2b2149fd
 
 build:
   number: 1000
