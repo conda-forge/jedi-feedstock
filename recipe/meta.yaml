@@ -1,4 +1,4 @@
-{% set version = "0.13.3" %}
+{% set version = "0.14.0" %}
 
 package:
   name: jedi
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jedi/jedi-{{ version }}.tar.gz
-  sha256: 2bb0603e3506f708e792c7f4ad8fc2a7a9d9c2d292a358fbbd58da531695595b
+  sha256: 49ccb782651bb6f7009810d17a3316f8867dde31654c750506970742e18b553d
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
@@ -18,7 +18,7 @@ requirements:
     - pip
   run:
     - python
-    - parso >=0.3.0
+    - parso >=0.5.0
 
 test:
   imports:
