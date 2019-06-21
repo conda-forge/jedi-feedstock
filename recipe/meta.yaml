@@ -10,7 +10,7 @@ source:
 
 build:
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
@@ -18,7 +18,7 @@ requirements:
     - pip
   run:
     - python
-    - parso >=0.3.0
+    - parso >=0.5.0
 
 test:
   imports:
