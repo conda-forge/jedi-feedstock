@@ -24,8 +24,13 @@ test:
   imports:
     - jedi
     - jedi.api
-    - jedi.evaluate
-    - jedi.evaluate.compiled
+    - jedi.common
+    - jedi.inference
+    - jedi.inference.compiled
+    - jedi.inference.compiled.subprocess
+    - jedi.inference.gradual
+    - jedi.inference.value
+    - jedi.plugins
 
 about:
   home: https://github.com/davidhalter/jedi/
