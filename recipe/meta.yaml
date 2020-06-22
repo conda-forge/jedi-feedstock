@@ -9,7 +9,7 @@ source:
   sha256: 807d5d4f96711a2bcfdd5dfa3b1ae6d09aa53832b182090b222b5efb81f52f63
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,6 +21,8 @@ requirements:
     - parso >=0.7.0,<0.8.0
 
 test:
+  requires:
+    - pip
   imports:
     - jedi
     - jedi.api
@@ -31,6 +33,8 @@ test:
     - jedi.inference.gradual
     - jedi.inference.value
     - jedi.plugins
+  commands:
+    - python -m pip check
 
 about:
   home: https://github.com/davidhalter/jedi/
