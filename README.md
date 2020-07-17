@@ -5,7 +5,7 @@ Home: https://github.com/davidhalter/jedi/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: An autocompletion tool for Python that can be used for text editors.
 
