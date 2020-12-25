@@ -1,4 +1,4 @@
-{% set version = "0.17.1" %}
+{% set version = "0.18.0" %}
 
 package:
   name: jedi
@@ -6,13 +6,16 @@ package:
 
 source:
   url: https://pypi.io/packages/source/j/jedi/jedi-{{ version }}.tar.gz
-  sha256: 807d5d4f96711a2bcfdd5dfa3b1ae6d09aa53832b182090b222b5efb81f52f63
+  sha256: 92550a404bad8afed881a137ec9a461fed49eca661414be45059329614ed0707
 
 build:
   number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
+  build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
     - python
     - pip
