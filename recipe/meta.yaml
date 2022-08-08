@@ -1,7 +1,8 @@
+{% set name = "jedi" %}
 {% set version = "0.18.1" %}
 
 package:
-  name: jedi
+  name: {{ name }}
   version: {{ version }}
 
 source:
