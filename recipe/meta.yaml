@@ -1,5 +1,5 @@
 {% set name = "jedi" %}
-{% set version = "0.18.1" %}
+{% set version = "0.18.2" %}
 
 package:
   name: {{ name }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 74137626a64a99c8eb6ae5832d99b3bdd7d29a3850fe2aa80a4126b2a7d949ab
+  sha256: bae794c30d07f6d910d32a7048af09b5a39ed740918da923c6b780790ebac612
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
