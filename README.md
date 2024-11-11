@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jedi-feedstock/
 
 Home: https://github.com/davidhalter/jedi/
 
-Package license: MIT
+Package license: Apache-2.0 AND MIT
 
 Summary: An autocompletion tool for Python that can be used for text editors.
 
